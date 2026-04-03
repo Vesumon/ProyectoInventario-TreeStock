@@ -1,16 +1,20 @@
 import java.util.Scanner;
 
+//Clase principal, contiene el menú interactivo del sistema
 public class Main {
     
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
+
+        // Instancia del árbol
         ArbolInventario inventario = new ArbolInventario();
 
         int opcion;
 
         do {
 
+            // Menú principal
             System.out.println("\n===== TREE-STOCK INVENTARIO =====");
             System.out.println("1. Registrar Producto");
             System.out.println("2. Mostrar Inventario");
@@ -23,7 +27,7 @@ public class Main {
             switch (opcion) {
 
                 case 1:
-
+                    // Registro de producto
                     System.out.print("Ingrese ID del producto: ");
                     int id = sc.nextInt();
                     sc.nextLine();
@@ -38,14 +42,14 @@ public class Main {
                     break;
                 
                 case 2:
-
+                    // Mostrar inventario
                     System.out.println("\nInventario ordenado:");
                     inventario.mostrarInventario();
 
                     break;
 
                 case 3:
-
+                    // Buscar producto
                     System.out.print("Ingrese ID a buscar: ");
                     int buscarID = sc.nextInt();
 
