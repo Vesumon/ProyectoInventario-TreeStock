@@ -6,7 +6,7 @@ Nombre: Yeremy Jesus Berdugo Valencia
 Curso: Estructura de Datos
 Proyecto: Tree-Stock
 Repositorio: (https://github.com/Vesumon/ProyectoInventario-TreeStock)
-Video de sustentación: (URL PENDIENTE)
+Video de sustentación: (https://youtu.be/Y0n_jeGdXR0)
 
 ---
 
@@ -136,7 +136,7 @@ En el siguiente video se explica:
 * Búsqueda de productos
 
 Link del video:
-(URL PENDIENTE)
+(https://youtu.be/Y0n_jeGdXR0)
 
 ---
 
